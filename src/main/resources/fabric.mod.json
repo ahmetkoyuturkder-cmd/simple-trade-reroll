@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "simple_trade_reroll",
+  "version": "1.2.1",
+  "name": "Simple Trade Reroll",
+  "description": "A simple singleplayer villager trade reroll button and automatic target search.",
+  "authors": ["Furkan and Codex"],
+  "icon": "assets/simple_trade_reroll/icon.png",
+  "license": "MIT",
+  "contact": {
+    "sources": "https://github.com/ahmetkoyuturkder-cmd/simple-trade-reroll",
+    "issues": "https://github.com/ahmetkoyuturkder-cmd/simple-trade-reroll/issues"
+  },
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.furkan.simpletradereroll.SimpleTradeReroll"],
+    "client": ["dev.furkan.simpletradereroll.SimpleTradeRerollClient"]
+  },
+  "mixins": ["simple_trade_reroll.mixins.json"],
+  "depends": {
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabricloader": ">=0.19.5",
+    "fabric-api": "*"
+  }
+}

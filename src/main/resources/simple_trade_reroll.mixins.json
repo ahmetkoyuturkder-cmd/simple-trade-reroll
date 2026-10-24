@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.furkan.simpletradereroll.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["ContainerScreenPositionAccessor", "MerchantTextInputMixin"],
+  "injectors": {"defaultRequire": 1}
+}
